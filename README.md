@@ -1,22 +1,16 @@
 ## 记录
 
-存放学习笔记
+存放一下个人学习笔记 O_o
 
+<br>
 
+### 计算机基础知识
 
-## 计算机基础知识
+[DS](./DS/README.md) | OS | CN | DB | Linux
 
-[数据结构与算法](./DS/README.md)
+<br>
 
-[计算机网络]()
-
-[操作系统]()
-
-[数据库]()
-
-[Linux]()
-
-## Go 修炼之路
+### Go 修炼之路
 
 [Golang | Go Web](./Golang/README.md)
 
@@ -44,7 +38,7 @@ Java
 
 前端
 
-## 常用工具
+<br>
 
 ### Tips
 
