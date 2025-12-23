@@ -30,15 +30,18 @@
 
 ### 针对性练习题目 【练习次数】
 
-**二分法**
+#### 二分法
 
 1.  [LC704. 二分查找](https://leetcode.cn/problems/binary-search/)（模板） 【1】
 2. [LC35. 搜索插入位置](https://leetcode.cn/problems/search-insert-position/)【1】
-3. [LC74. 搜索二维矩阵](https://leetcode.cn/problems/search-a-2d-matrix/)
-4. [acwing789. 数的范围](https://www.acwing.com/problem/content/791/) 【1】
-5.  [LC4. 寻找两个正序数组的中位数](https://leetcode.cn/problems/median-of-two-sorted-arrays/)（`O(log(M+N))`解法）
+3. [LC74. 搜索二维矩阵](https://leetcode.cn/problems/search-a-2d-matrix/)【1】（定位也可以二分）
+4. [LC34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/)【1】
+5. [LC33. 搜索旋转排序数组](https://leetcode.cn/problems/search-in-rotated-sorted-array/)
+6. [LC153. 寻找旋转排序数组中的最小值](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/)
+7.  [LC4. 寻找两个正序数组的中位数](https://leetcode.cn/problems/median-of-two-sorted-arrays/)（`O(log(M+N))`解法）
+8. [acwing789. 数的范围](https://www.acwing.com/problem/content/791/) 【1】
 
-
+#### 哈希
 
 
 
