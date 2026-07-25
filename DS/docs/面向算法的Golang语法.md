@@ -1,5 +1,7 @@
 ## 基本语法
 
+### 1. 连续赋值
+
 Golang 不支持连续赋值的写法
 
 ```go
@@ -21,6 +23,63 @@ a, b, c = 1, 1, 1
 copy(b, a)	// 底层原理？
 // 类似 vector中 b.assign(a.begin(), b.end()); 用法
 ```
+
+### 2. swap
+
+```go
+// Go 风格的交换值（多重赋值），适用于基本类型和引用类型
+a, b := 0, 1
+a, b := b, a
+
+s1 := []int{1, 2, 3}
+s2 := []int{4, 5, 6}
+s1, s2 = s2, s1
+```
+
+### 3. 切片反转
+
+```go
+// ReverseSlice 原地反转任意类型的切片
+func ReverseSlice[T any](s []T) {
+	// 双指针：i从头部开始，j从尾部开始
+	for i, j := 0, len(s)-1; i < j; i, j = i+1, j-1 {
+		// 交换i和j位置的元素
+		s[i], s[j] = s[j], s[i]
+	}
+}
+```
+
+
+
+## 常用数学运算
+
+### 1. 最值
+
+```go
+math.MaxInt
+math.MinInt
+```
+
+### 2. 指数运算
+
+返回值是 `float64` 
+
+```go
+math.Pow(2, 3)	// 2^3
+```
+
+**特化专用**
+
+```go
+math.Pow10(x)	// 10 的 x 次方
+math.Exp(x)		// e^x
+math.Sqrt(x)	// 平方根
+math.Cbrt(x)	// 立方根
+```
+
+
+
+
 
 
 

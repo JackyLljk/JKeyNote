@@ -6,7 +6,7 @@
 - 每一个Go程序都至少包含一个`goroutine`，即`main goroutine`，Go 程序启动时会自动创建
 
 ```go
-go f() // 创建新的goroutine执行函数f
+go f() // 创建新的 goroutine 执行函数 f
 ```
 
 <br>
